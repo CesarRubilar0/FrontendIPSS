@@ -1,0 +1,80 @@
+
+/* Estilos para el inicio */
+#inicio {
+  position: relative;
+  height: 400px;
+}
+
+#imagen3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+#inicio .container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: left;
+}
+
+
+
+
+/* Estilos generales para el modo oscuro */
+body.modo-oscuro {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* Tajetas de servicios */
+body.modo-oscuro .card {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+/*Botones */
+button.btn-celeste, a.btn-celeste {
+  background-color: #007BFF; 
+  border-color: #007BFF;
+  color: #fff;
+}
+
+button.btn-verde, a.btn-verde {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+/* Estilo solo para dl boton subida y bajada */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+
+/* Estilos para el pie de pagina */
+footer {
+  color: #333; 
+}
+
+body.modo-oscuro footer {
+  color: #333;
+}
+
+
+
